@@ -1,2 +1,2 @@
-language: objective-c
+language: objective_c
 xcode_scheme: TestTravisApp
