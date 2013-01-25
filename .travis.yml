@@ -1,4 +1,3 @@
 language: objective_c
 xcode_scheme: TestTravisApp
-before_script: ls -Al
-script: xcodebuild -verbose -scheme TestTravisApp clean build test
+script: xcodebuild -scheme TestTravisApp clean build test
