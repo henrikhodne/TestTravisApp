@@ -1,3 +1,4 @@
 language: objective-c
 xcode_scheme: TestTravisApp
-script: xcodebuild -scheme TestTravisApp clean build test
+install: curl https://gist.github.com/raw/bf9814ed08b45d34bfdd/2eae96feeee96f8b65c9eb85efcb7b1dd4b57a1f/xcodebuild-wrapper.pl > xcb-wrapper.pl
+script: perl xcb-wrapper.pl xcodebuild -scheme TestTravisApp clean build test
