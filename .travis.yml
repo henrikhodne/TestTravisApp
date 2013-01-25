@@ -4,3 +4,4 @@ before_script:
   - ls ~
   - which xcodebuild
 script: xcodebuild -scheme TestTravisApp clean build test
+
