@@ -26,7 +26,8 @@
 
 - (void)testExample
 {
-    STAssertEquals(1, 1, @"1 == 1");
+//    STAssertEquals(1, 1, @"1 == 1");
+    STFail(@"Test failing tests");
 }
 
 @end
