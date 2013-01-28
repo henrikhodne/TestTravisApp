@@ -1,7 +1,4 @@
 language: objective-c
 xcode_scheme: TestTravisApp
-before_script:
-  - ls ~
-  - which xcodebuild
 script: xcodebuild -scheme TestTravisApp clean build test
 
