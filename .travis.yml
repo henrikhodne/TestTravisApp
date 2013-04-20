@@ -1,4 +1,8 @@
 language: objective-c
-xcode_scheme: TestTravisApp
-script: xcodebuild -scheme TestTravisApp clean build test
+xcode_sdk:
+  - iphonesimulator6.0
+  - iphonesimulator6.1
+xcode_scheme:
+  - TestScheme1
+  - TestScheme2
 
